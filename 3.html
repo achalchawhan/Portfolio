@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            border: none;
+        }
+        #font {
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            line-height: 70px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 22px;
+            text-align: center;
+            display: block;
+            padding: 20px;
+            font-weight: bold;
+            transition: color 0.3s, font-weight 0.3s;
+        }
+        a:hover {
+            text-decoration: none;
+            font-weight:800;
+        }
+        .navbar-toggler {
+            border-color: transparent;
+        }
+        .navbar-collapse {
+            z-index: 6;
+            position: absolute;
+            right: 0;
+            top: 100%; /* Position below the hamburger menu */
+            background: rgb(220, 182, 14);
+            box-shadow: -3px 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 0 0 0 5px;
+            display: none; /* Hide by default */
+            padding-left: 20px;
+            padding-right: 20px ;
+        }
+        .navbar-nav {
+            margin-left: 0;
+        }
+        .navbar-nav .nav-item {
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar-nav .nav-item:last-child {
+            border-bottom: none;
+        }
+        /* Show the menu box when the navbar is toggled */
+        .navbar-collapse.show {
+            display: block;
+        }
+        @media (min-width: 993px) {
+            .navbar-nav {
+                margin-left: auto; /* Aligns links to the right */
+            }
+            .navbar-collapse {
+                display: block;
+                position: static;
+                width: auto;
+                background: transparent;
+                box-shadow: none;
+                border-radius: 0;
+                top: auto;
+            }
+        }
+        @media (max-width: 1199px) {
+            .navbar-collapse.show {
+                display: block;
+            }
+            #img{
+                width: 400px;
+                text-align:center;
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container-fluid" style="background-color: rgb(142, 220, 222); bottom: 2px solid black; padding: 10px;">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="font">PORTFOLIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="1.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="2.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="3.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="4.html">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="5.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+          <div class="container-fluid">
+            <div class="row" style="background-color:  rgb(255, 255, 255) ;text-align: center; padding: 40px;">
+                <div class="col-lg-1 col-sm-12"></div>
+                <div class="col-lg-4 col-sm-12 " id="img">
+            <img src="images/achal.jpeg" style="border: 2px solid rgb(249, 247, 247); height:350px ; width:100% ; border-radius: 50%;">
+                
+                </div>
+                <div class="col-lg-1 col-sm-12"></div>
+
+              <div class="col-lg-6 col-sm-12" style=" color:black;">
+                
+                <h1 style="font-weight: bolder; margin-top: 40px;">ACHAL CHAWHAN</h1>
+                <p><h4>Full Stack Developer</h4> with overall  6 + months of Hands on experience who is always willing to try and learn new things. Have a positive vision towards results. Aiming to be proﬁcient in new skills and enhancing my technical knowledge.</p>
+                
+                <p>I am passionate about building innovative solutions and constantly improving my craft. My journey in the tech world has been characterized by a continuous drive to learn and embrace new challenges. My commitment to learning and delivering high-quality results makes me a valuable addition to any development team.</p>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+
+        <section2>
+            <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+            
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="images/1.jpg" style="height: 250px;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusamus, porro obcaecati magni iusto, eum, voluptatem provident aspernatur tenetur asperiores magnam praesentium facere a iure eius sequi. Necessitatibus, quidem .</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="images/2.jpg" style="height: 250px;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusamus, porro obcaecati magni iusto, eum, voluptatem provident aspernatur tenetur asperiores magnam praesentium facere a iure eius sequi. Necessitatibus, quidem .</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="images/3.jpg" style="height: 250px;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusamus, porro obcaecati magni iusto, eum, voluptatem provident aspernatur tenetur asperiores magnam praesentium facere a iure eius sequi. Necessitatibus, quidem .</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="images/4.jpg" style="height: 250px;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusamus, porro obcaecati magni iusto, eum, voluptatem provident aspernatur tenetur asperiores magnam praesentium facere a iure eius sequi. Necessitatibus, quidem .</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="images/5.jpg" style="height: 250px;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusamus, porro obcaecati magni iusto, eum, voluptatem provident aspernatur tenetur asperiores magnam praesentium facere a iure eius sequi. Necessitatibus, quidem .</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="images/6.jpg" style="height: 250px;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusamus, porro obcaecati magni iusto, eum, voluptatem provident aspernatur tenetur asperiores magnam praesentium facere a iure eius sequi. Necessitatibus, quidem .</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="images/7.jpg" style="height: 250px;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusamus, porro obcaecati magni iusto, eum, voluptatem provident aspernatur tenetur asperiores magnam praesentium facere a iure eius sequi. Necessitatibus, quidem .</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="images/8.jpg" style="height: 250px;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusamus, porro obcaecati magni iusto, eum, voluptatem provident aspernatur tenetur asperiores magnam praesentium facere a iure eius sequi. Necessitatibus, quidem .</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="images/9.png" style="height: 250px;">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum accusamus, porro obcaecati magni iusto, eum, voluptatem provident aspernatur tenetur asperiores magnam praesentium facere a iure eius sequi. Necessitatibus, quidem .</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section2>
+
+    </div>
+
+    <div style="margin-top: -50px;">
+        <footer class="bd-footer py-4 py-md-5 mt-5" style="background-color: black; color: white;">
+            <div class="container-fluid py-4 py-md-5 px-4 px-md-3">
+                <div class="row">
+                    <div class="col-lg-3 mb-3">
+                        <ul class="list-unstyled small">
+                            <li class="mb-2">Designed and built with all the love in the world by the Bootstrap team with the help of our contributors</li>
+                            <li class="mb-2">Code licensed MIT, docs CC BY 3.0</li>
+                            <li class="mb-2">Currently v5.3.3.</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Home</li>
+                            <li class="mb-2">Docs</li>
+                            <li class="mb-2">Examples</li>
+                            <li class="mb-2">Icons</li>
+                            <li class="mb-2">Themes</li>
+                            <li class="mb-2">Blog</li>
+                            <li class="mb-2">Swag Store</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h5>Guides</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Getting started</li>
+                            <li class="mb-2">Starter template</li>
+                            <li class="mb-2">Webpack</li>
+                            <li class="mb-2">Parcel</li>
+                            <li class="mb-2">Vite</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h5>Projects</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Bootstrap 5</li>
+                            <li class="mb-2">Bootstrap 4</li>
+                            <li class="mb-2">Icons</li>
+                            <li class="mb-2">RFS</li>
+                            <li class="mb-2">Examples repo</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h5>Community</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Issues</li>
+                            <li class="mb-2">Discussions</li>
+                            <li class="mb-2">Corporate sponsors</li>
+                            <li class="mb-2">Open Collective</li>
+                            <li class="mb-2">Stack Overflow</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
